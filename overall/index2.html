@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohid Shaikh — Creative Visual Designer</title>
+    <meta name="description"
+        content="Portfolio of Mohid Shaikh — Creative Visual Designer specializing in immersive website design for mobile and desktop.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <!-- Premium Custom Cursor -->
+    <div id="custom-cursor">
+        <div class="cursor-ring"></div>
+        <div class="cursor-dot"></div>
+    </div>
+
+    <!-- Background Ambient Animation Layer -->
+    <div id="bg-animation">
+        <div class="gradient-blob blob-1"></div>
+        <div class="gradient-blob blob-2"></div>
+        <div class="gradient-blob blob-3"></div>
+        <canvas id="particle-canvas"></canvas>
+    </div>
+
+    <!-- Left Fixed Social Bar -->
+    <div id="social-bar">
+        <a href="https://github.com" target="_blank" rel="noopener" class="social-link" aria-label="GitHub"
+            data-magnetic>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+            </svg>
+        </a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn"
+            data-magnetic>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+            </svg>
+        </a>
+        <a href="https://instagram.com" target="_blank" rel="noopener" class="social-link" aria-label="Instagram"
+            data-magnetic>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+            </svg>
+        </a>
+        <div class="social-line"></div>
+    </div>
+
+    <div id="main">
+        <div id="loader">
+            <div id="topheading">
+                <h5 class="reveal">Design portfolio</h5>
+                <h5 class="reveal">&copy; 2026</h5>
+            </div>
+            <h1 class="reveal"><span>Mohid </span> <span>shaikh</span> <span>is</span></h1>
+            <div id="whatsapp-loader">
+                <div id="counter">
+                    <h2>0%</h2>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar"></div>
+                </div>
+            </div>
+        </div>
+        <div id="green"></div>
+        <div id="home">
+            <div id="nav">
+                <a href="#">
+                    MOHID SHAIKH
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                </a><a href="#about-work"> About me
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                </a><a href="#about-work">Work gallery
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                </a><a href="#contact">Contact
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                </a>
+            </div>
+            <div class="raw">
+                <h1>Creative</h1>
+                <div class="text">
+                    <h5>CURRENTLY AVAILABLE for </h5>
+                    <h5>Freelance / Full time</h5>
+                </div>
+                <div class="text">
+                    <h5>my time is yours</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="arrow-icon" data-magnetic>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <line x1="7" y1="7" x2="17" y2="17"></line>
+                        <polyline points="17 7 17 17 7 17"></polyline>
+                    </svg>
+                </div>
+                <div class="visual-wrapper">
+                    <svg viewBox="0 0 300 100">
+                        <text x="10" y="80">visual</text>
+                    </svg>
+                </div>
+                <h1>Designer</h1>
+            </div>
+            <!-- Pinned About & Work Showcase Section -->
+            <section id="about-work">
+                <!-- Layer 4: Header Row (Stays above everything, mix-blend-mode: difference) -->
+                <div class="work-indicator">
+                    <div class="work-tag">
+                        <span class="work-dot"></span>
+                        <span class="work-label">Selected work</span>
+                    </div>
+                    <div class="work-counter">
+                        <span class="counter-current">1</span>
+                        <span class="counter-divider">/</span>
+                        <span class="counter-total">3</span>
+                    </div>
+                </div>
+
+                <!-- Layer 2: Giant Background Project Title & Tag (Behind Cards) -->
+                <div class="giant-title-wrap">
+                    <div class="giant-item giant-item-1" data-index="0">
+                        <h2 class="giant-title">ASCND STUDIO</h2>
+                        <span class="giant-tag">Brand & Front-End</span>
+                    </div>
+                    <div class="giant-item giant-item-2" data-index="1">
+                        <h2 class="giant-title">STRIX SECURITY</h2>
+                        <span class="giant-tag">Cybersecurity Platform</span>
+                    </div>
+                    <div class="giant-item giant-item-3" data-index="2">
+                        <h2 class="giant-title">VIRALCLIPS AI</h2>
+                        <span class="giant-tag">AI Video SaaS</span>
+                    </div>
+                </div>
+
+                <!-- Left Side: About Me Content (fades out on Step 1) -->
+                <div class="about-text-wrap">
+                    <div class="section-tag">
+                        <span class="dot"></span>
+                        <h5>ABOUT ME</h5>
+                    </div>
+                    <h1>I Am Mohid Shaikh, <br>
+                        I develop <span>immersive</span> website designs <br>
+                        for mobile and desktop.</h1>
+                    <p class="about-description">
+                        Specializing in modern interactive digital experiences, motion design, and high-performance creative web interfaces.
+                    </p>
+                </div>
+
+                <!-- Layer 3: Cards Container -->
+                <div class="cards-container">
+                    <!-- Card 1 -->
+                    <div class="project-card card-1" data-index="0">
+                        <img src="images/project-ascnd.png" alt="Ascnd Studio" class="card-img" />
+                        <div class="card-pill">
+                            <span class="pill-title">Ascnd Studio</span>
+                            <span class="pill-dot">·</span>
+                            <span class="pill-tag">Brand & Front-End</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="project-card card-2" data-index="1">
+                        <img src="images/project-strix.png" alt="Strix Security" class="card-img" />
+                        <div class="card-pill">
+                            <span class="pill-title">Strix Security</span>
+                            <span class="pill-dot">·</span>
+                            <span class="pill-tag">Cybersecurity Platform</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="project-card card-3" data-index="2">
+                        <img src="images/project-viralclips.png" alt="ViralClips AI" class="card-img" />
+                        <div class="card-pill">
+                            <span class="pill-title">ViralClips AI</span>
+                            <span class="pill-dot">·</span>
+                            <span class="pill-tag">AI Video SaaS</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Premium Editorial Dark Contact Section -->
+            <section id="contact" aria-label="Contact Section">
+                <div class="contact-container">
+                    <!-- Top Label & Headline -->
+                    <div class="contact-header">
+                        <div class="contact-tag">
+                            <span class="contact-tag-dot"></span>
+                            <span class="contact-tag-text">CONTACT</span>
+                        </div>
+                        <h2 class="contact-headline">
+                            <span class="word-mask"><span class="word">Let's</span></span>
+                            <span class="word-mask"><span class="word">create</span></span>
+                            <span class="word-mask"><span class="word">something</span></span>
+                            <span class="word-mask"><span class="word accent-word">meaningful.</span></span>
+                        </h2>
+                    </div>
+
+                    <!-- Two-Column Editorial Layout -->
+                    <div class="contact-body">
+                        <!-- Left Column: Form (~55%) -->
+                        <div class="contact-form-column">
+                            <div class="contact-card">
+                                <form id="contact-form" class="editorial-form" novalidate>
+                                    <!-- Name Field -->
+                                    <div class="field-wrap">
+                                        <div class="floating-field">
+                                            <input type="text" id="contact-name" name="name" required autocomplete="name" placeholder=" " />
+                                            <label for="contact-name">Your Name</label>
+                                            <div class="field-line"></div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Email Field -->
+                                    <div class="field-wrap">
+                                        <div class="floating-field">
+                                            <input type="email" id="contact-email" name="email" required autocomplete="email" placeholder=" " />
+                                            <label for="contact-email">Email Address</label>
+                                            <div class="field-line"></div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Message Field -->
+                                    <div class="field-wrap">
+                                        <div class="floating-field textarea-field">
+                                            <textarea id="contact-message" name="message" rows="5" required placeholder=" "></textarea>
+                                            <label for="contact-message">Tell me about your project</label>
+                                            <div class="field-line"></div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Submit Button Row -->
+                                    <div class="form-action">
+                                        <button type="submit" id="contact-submit-btn" class="contact-submit-button" data-magnetic aria-label="Send Message">
+                                            <span class="btn-text">Send Message</span>
+                                            <span class="btn-icon">
+                                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                                </svg>
+                                            </span>
+                                            <span class="btn-spinner" aria-hidden="true"></span>
+                                        </button>
+                                    </div>
+                                </form>
+
+                                <!-- Inline Success State (replaces form after submission) -->
+                                <div id="contact-success-state" class="contact-success" style="display: none;" aria-live="polite">
+                                    <div class="success-icon-badge">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12"></polyline>
+                                        </svg>
+                                    </div>
+                                    <h3 class="success-title">Message sent</h3>
+                                    <p class="success-desc">Thank you for reaching out — I'll reply soon.</p>
+                                    <button type="button" class="reset-contact-btn" data-magnetic>Send another note</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Right Column: Social & Direct Links (~35%) -->
+                        <div class="contact-links-column">
+                            <div class="social-list">
+                                <a href="mailto:mohidshaikh.design@gmail.com" class="social-row" data-magnetic>
+                                    <div class="social-info">
+                                        <span class="social-label">Email</span>
+                                        <span class="social-sub">mohidshaikh.design@gmail.com</span>
+                                    </div>
+                                    <div class="social-arrow-btn">
+                                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                            <line x1="7" y1="17" x2="17" y2="7"></line>
+                                            <polyline points="7 7 17 7 17 17"></polyline>
+                                        </svg>
+                                    </div>
+                                </a>
+
+                                <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-row" data-magnetic>
+                                    <div class="social-info">
+                                        <span class="social-label">LinkedIn</span>
+                                        <span class="social-sub">/in/mohidshaikh</span>
+                                    </div>
+                                    <div class="social-arrow-btn">
+                                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                            <line x1="7" y1="17" x2="17" y2="7"></line>
+                                            <polyline points="7 7 17 7 17 17"></polyline>
+                                        </svg>
+                                    </div>
+                                </a>
+
+                                <a href="https://instagram.com" target="_blank" rel="noopener" class="social-row" data-magnetic>
+                                    <div class="social-info">
+                                        <span class="social-label">Instagram</span>
+                                        <span class="social-sub">@mohid.visuals</span>
+                                    </div>
+                                    <div class="social-arrow-btn">
+                                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                            <line x1="7" y1="17" x2="17" y2="7"></line>
+                                            <polyline points="7 7 17 7 17 17"></polyline>
+                                        </svg>
+                                    </div>
+                                </a>
+
+                                <a href="https://x.com" target="_blank" rel="noopener" class="social-row" data-magnetic>
+                                    <div class="social-info">
+                                        <span class="social-label">Twitter / X</span>
+                                        <span class="social-sub">@mohidshaikh</span>
+                                    </div>
+                                    <div class="social-arrow-btn">
+                                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                            <line x1="7" y1="17" x2="17" y2="7"></line>
+                                            <polyline points="7 7 17 7 17 17"></polyline>
+                                        </svg>
+                                    </div>
+                                </a>
+
+                                <a href="https://dribbble.com" target="_blank" rel="noopener" class="social-row" data-magnetic>
+                                    <div class="social-info">
+                                        <span class="social-label">Dribbble</span>
+                                        <span class="social-sub">mohidshaikh</span>
+                                    </div>
+                                    <div class="social-arrow-btn">
+                                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                            <line x1="7" y1="17" x2="17" y2="7"></line>
+                                            <polyline points="7 7 17 7 17 17"></polyline>
+                                        </svg>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bottom Large Outlined Signature Line -->
+                    <div class="contact-signature-wrap">
+                        <div class="contact-signature-text">Have a project in mind?</div>
+                    </div>
+
+                    <!-- Minimalist Footer Row -->
+                    <div class="contact-footer-bar">
+                        <span class="footer-copyright">&copy; 2026 Mohid Shaikh. All rights reserved.</span>
+                        <a href="#home" id="contact-btt-link" class="footer-btt-link" data-magnetic>
+                            <span>Back to top</span>
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="12" y1="19" x2="12" y2="5"></line>
+                                <polyline points="5 12 12 5 19 12"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+        integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="ScrollTrigger.min.js"></script>
+    <script src="lenis.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
